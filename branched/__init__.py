@@ -4,6 +4,7 @@ import sys
 from simple_term_menu import TerminalMenu
 
 name = 'branched'
+version = '0.0.3'
 
 
 def main():

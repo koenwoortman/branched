@@ -1,11 +1,13 @@
 import setuptools
 
+import branched
+
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="branched",
-    version="0.0.3",
+    name=branched.name,
+    version=branched.version,
     author="Koen Woortman",
     author_email="koensw@outlook.com",
     url='https://github.com/koenwoortman/branched',
