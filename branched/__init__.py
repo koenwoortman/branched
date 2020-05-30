@@ -8,8 +8,8 @@ version = '0.0.3'
 
 
 def main():
-    if os.path.isdir('.git') == False:
-        print('branched: not in a git repo')
+    if os.path.isdir('.git') is False:
+        print('{}: not in a git repo'.format(name))
         return
 
     branches = os.listdir('.git/refs/heads')
