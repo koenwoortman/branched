@@ -7,6 +7,10 @@ name = 'branched'
 
 
 def main():
+    if os.path.isdir('.git') == False:
+        print('branched: not in a git repo')
+        return
+
     branches = os.listdir('.git/refs/heads')
     terminal_menu = TerminalMenu(branches)
     result = terminal_menu.show()

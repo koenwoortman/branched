@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="branched",
-    version="0.0.2",
+    version="0.0.3",
     author="Koen Woortman",
     author_email="koensw@outlook.com",
     url='https://github.com/koenwoortman/branched',
