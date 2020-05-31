@@ -13,7 +13,7 @@ def main():
         return
 
     branches = os.listdir('.git/refs/heads')
-    terminal_menu = TerminalMenu(branches)
+    terminal_menu = TerminalMenu(branches, 'Checkout branch')
     result = terminal_menu.show()
     os.system('git checkout {}'.format(branches[result]))
 
